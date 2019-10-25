@@ -1,4 +1,7 @@
+@import "./normalize.css";
+
 body {
+  postion: relative;
   header {
     .top-nav {
       display: flex;
@@ -19,6 +22,20 @@ body {
         width: 32%;
         border-left: 1px solid black;
         border-right: 1px solid black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        // vertical-align: sub;
+        // height: 80px;
+        // line-height: 0;
+        height: 150px;
+        justify-content: center;
+
+        //! GET THIS IMG TO ALIGN CENTER VERTICAL
+        img {
+          width: 50px;
+          height: 50px;
+        }
         h2 {
           text-align: center;
         }
@@ -66,6 +83,8 @@ body {
       .first-left {
         width: 40%;
         p {
+          text-align: center;
+          font-size: 1.5rem;
         }
       }
       .first-right {
@@ -139,6 +158,7 @@ body {
         display: flex;
         flex-direction: column;
         align-items: center;
+        //! GET THIS IMG TO ALIGN CENTER VERTICAL
         img {
           width: 50px;
           height: 50px;
